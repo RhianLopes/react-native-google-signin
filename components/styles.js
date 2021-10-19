@@ -12,7 +12,7 @@ export const Colors = {
     darkLight: '#9CA3AF',
     brand: '#6D28D9',
     green: '#10B981',
-    primary: '#EF4444',
+    red: '#EF4444',
 }
 
 const { primary, secondary, tertiary, darkLight, brand, green, red } = Colors
@@ -43,3 +43,14 @@ export const PageTitle = styled.Text`
     padding: 10px;
 `
 
+export const SubTitle = styled.Text`
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: ${tertiary};
+`
+
+export const StyledFormArea = styled.View`
+    width: 90%;
+`
