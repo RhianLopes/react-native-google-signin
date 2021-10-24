@@ -7,10 +7,10 @@ const StatusBarHeight = Constants.statusBarHeight
 // colors
 export const Colors = {
     primary: '#FFFFFF',
-    secondary: '#E5E7EB',
-    tertiary: '#1F2037',
+    secondary: '#9CA3AF',
+    tertiary: '#9CA3AF',
     darkLight: '#9CA3AF',
-    brand: '#6D28D9',
+    brand: '#9CA3AF',
     green: '#10B981',
     red: '#EF4444',
 }
